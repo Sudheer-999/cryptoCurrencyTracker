@@ -1,0 +1,54 @@
+.crypto-image {
+  width: 95%;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.currencies-list {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .currencies-list {
+    width: 90%;
+  }
+}
+
+.main-head {
+  text-align: center;
+  color: #00e7ff;
+  margin-bottom: 10px;
+}
+
+.table-heads {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #092e33;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.curr-values {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .curr-values {
+    width: 20%;
+  }
+}
+
+.table {
+  border: 3px solid #00e7ff;
+  border-radius: 8px;
+}

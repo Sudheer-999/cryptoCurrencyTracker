@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+}
+
+.tracker-container {
+  background-color: #000000;
+  padding: 25px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .tracker-container {
+    justify-content: center;
+    height: 100%;
+  }
+}

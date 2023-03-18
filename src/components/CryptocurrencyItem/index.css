@@ -1,0 +1,32 @@
+.currency-logo {
+  width: 25px;
+  margin-right: 8px;
+}
+
+.currency-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 5px 20px;
+}
+
+.usd-value {
+  margin-right: 10px;
+}
+
+.currency-type {
+  display: flex;
+  align-items: center;
+}
+
+.currency-item-values {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .currency-item-values {
+    width: 20%;
+  }
+}
